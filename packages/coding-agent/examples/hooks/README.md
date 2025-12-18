@@ -16,6 +16,9 @@ Blocks writes to protected paths (.env, .git/, node_modules/).
 ### file-trigger.ts
 Watches a trigger file and injects its contents into the conversation. Useful for external systems (CI, file watchers, webhooks) to send messages to the agent.
 
+### ls-suppress.ts
+Suppress large directory listings on bash tool excution of `ls -R .`.
+
 ## Usage
 
 ```bash
